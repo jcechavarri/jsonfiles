@@ -1,0 +1,119 @@
+[
+    {
+        "id": 3,
+        "parent": 2,
+        "direction": "right",
+        "sobrevivientes": 44,
+        "muertos": 376
+    },
+    {
+        "id": 4,
+        "parent": 2,
+        "direction": "left",
+        "sobrevivientes": 56,
+        "muertos": 188
+    },
+    {
+        "id": 2,
+        "parent": 1,
+        "direction": "right",
+        "atributo": "Age group",
+        "categorico": true,
+        "valor": [
+            "20 - 29",
+            "0 - 9"
+        ]
+    },
+    {
+        "id": 6,
+        "parent": 5,
+        "direction": "right",
+        "sobrevivientes": 3,
+        "muertos": 25
+    },
+    {
+        "id": 7,
+        "parent": 5,
+        "direction": "left",
+        "sobrevivientes": 58,
+        "muertos": 93
+    },
+    {
+        "id": 5,
+        "parent": 1,
+        "direction": "left",
+        "atributo": "Age",
+        "categorico": false,
+        "valor": 54.5
+    },
+    {
+        "id": 1,
+        "parent": 0,
+        "direction": "right",
+        "atributo": "Class",
+        "categorico": false,
+        "valor": 1.5
+    },
+    {
+        "id": 10,
+        "parent": 9,
+        "direction": "right",
+        "sobrevivientes": 3,
+        "muertos": 30
+    },
+    {
+        "id": 11,
+        "parent": 9,
+        "direction": "left",
+        "sobrevivientes": 103,
+        "muertos": 80
+    },
+    {
+        "id": 9,
+        "parent": 8,
+        "direction": "right",
+        "atributo": "Fare",
+        "categorico": false,
+        "valor": 23.35
+    },
+    {
+        "id": 13,
+        "parent": 12,
+        "direction": "right",
+        "sobrevivientes": 166,
+        "muertos": 5
+    },
+    {
+        "id": 14,
+        "parent": 12,
+        "direction": "left",
+        "sobrevivientes": 67,
+        "muertos": 12
+    },
+    {
+        "id": 12,
+        "parent": 8,
+        "direction": "left",
+        "atributo": "Fare",
+        "categorico": false,
+        "valor": 26.125
+    },
+    {
+        "id": 8,
+        "parent": 0,
+        "direction": "left",
+        "atributo": "Class",
+        "categorico": false,
+        "valor": 2.5
+    },
+    {
+        "id": 0,
+        "parent": null,
+        "direction": null,
+        "atributo": "Gender",
+        "categorico": true,
+        "valor": [
+            "female"
+        ]
+    }
+]
